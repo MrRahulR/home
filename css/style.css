@@ -1,21 +1,101 @@
-body{
+body {
   margin: 0;
-  padding: 0;
+  background-color: #ddf3f5;
+  text-align: center;
+  /* padding-top: 100px; */
 }
 
-.banner{
-  height: 600px;
-  width:100%;
+.building {
+  width: 20%;
+  height: 20%;
+  position: relative;
+  right: 3%;
 }
 
-.main-container{
-  height: 600px;
-  width:100%;
-  background-color: #08d9d6;
+.bridge {
+  width: 20%;
+  height: 20%;
+  position: relative;
+  right: 10%
 }
 
-.profile-image{
-  border-radius: 50%;
+.tower {
   width: 10%;
-  height: auto%;
+  height: 10%;
+  position: relative;
+  right: 3%;
+}
+
+.avatar{
+  width: 10%;
+  height: 10%;
+  position: relative;
+  right:40%;
+}
+
+.london-eye {
+  width: 30%;
+  height: 30%;
+  position: relative;
+  right: 8%
+}
+
+.post {
+  width: 3%;
+  height: 3%;
+  position: relative;
+
+}
+
+.bus {
+  width: 13%;
+  height: 13%;
+  position: relative;
+  left: 55%;
+}
+
+.banner {
+  position: relative;
+}
+
+.profile-image {
+  border-radius: 50%;
+  width: 5%;
+  height: auto;
+  margin-left: 100px;
+}
+
+.cloud {
+  width: 15%;
+  height: auto;
+}
+
+.top-cloud {
+  position: absolute;
+  /* top: 40%; */
+  right: 10%;
+}
+
+.center-cloud {
+  position: absolute;
+  top: 5%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 10%;
+  top: 25%;
+}
+
+span {
+  text-decoration: underline;
+}
+
+hr {
+  border: dotted #08d9d6;
+  border-bottom: 0;
+}
+
+.intro {
+  /* display: inline; */
 }

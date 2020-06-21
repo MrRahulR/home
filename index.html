@@ -4,15 +4,36 @@
 <head>
   <meta charset="utf-8">
   <title>👨‍💻 RahulR | Welcome 👨‍💻</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="images/favicon.ico" />
 </head>
 
 <body>
-  <img src='images/rahul.jpeg' alt="Rahul's Profile Picture" class="profile-image" />
-  <h1>Rahul R Pandya</h1>
-  <p> <em> A Software Automation Engineer with a Developer mind.</em> </p>
-  <p>Founder and CEO of <strong><em><a href='#' target="_blank">The PiRSquare Codes</a>
-        & <a href='#' target="_blank"> The Step2QA </a></em></strong> </p>
+    <img class="avatar" src='images/avatar.png' alt="cloud2" />
+  <img class="cloud center-cloud" src='images/cloud2.png' alt="cloud2" />
+  <img class="cloud top-cloud" src='images/cloud1.png' alt="cloud1" />
+  <img class="cloud bottom-cloud" src='images/cloud3.png' alt="cloud3" />
+  <div class='banner'>
+
+    <h1 class="intro">I'm Rahul R Pandya</h1>
+
+    <p class="intro"> <em> A <span>Software Automation Engineer</span> with a Developer mind.</em> </p>
+    <p class="intro">Founder and CEO of <strong><em><a href='#' target="_blank">The PiRSquare Codes</a>
+          & <a href='#' target="_blank"> The Step2QA </a></em></strong> </p>
+
+  </div>
+  <div class="">
+    <img src='images/london1_1.png' alt="london1" class="building" />
+    <img src='images/london2_1.png' alt="london2" class="tower" />
+    <img src='images/london5_1.png' alt="london5" class="post" />
+    <img src='images/london4_1.png' alt="london4" class="bus" />
+    <img src='images/london7_1.png' alt="london7" class="bridge" />
+    <img src='images/london3_1.png' alt="london3" class="london-eye" />
+    <!-- <img src='images/london6_1.png' alt="london6" class="post" /> -->
+
+  </div>
+
+
   <hr>
   <h3>Who Am I?</h3>
 
@@ -100,5 +121,26 @@
 
 
 </body>
+<script type="text/javascript">
+  var elem = document.getElementsByClassName("bus")[0];
+  var pos = 50;
+  setInterval(frame, 50);
+
+  function frame() {
+    if (pos == -50) {
+      console.log(pos);
+      pos = 50;
+    } else {
+      pos--;
+      console.log(pos);
+      elem.style.left = pos + "%";
+    }
+    // var currentTime = new Date().getHours();
+    // console.log(currentTime);
+    // if (currentTime > 6 && currentTime < 18) document.body.style.background = "#ddf3f5";
+    // else document.body.style.background = "#393e46";
+  }
+  window.onload = frame;
+</script>
 
 </html>
