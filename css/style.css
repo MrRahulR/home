@@ -2,7 +2,7 @@ body {
   margin: 0;
   background-color: #ddf3f5;
   text-align: center;
-  /* padding-top: 100px; */
+  padding-top: 115px;
 }
 
 .building {
@@ -26,11 +26,12 @@ body {
   right: 3%;
 }
 
-.avatar{
-  width: 10%;
-  height: 10%;
-  position: relative;
-  right:40%;
+.avatar {
+  /* width: 10%; */
+  height: 15%;
+  position: absolute;
+  left: 3%;
+  top: 3%;
 }
 
 .london-eye {
@@ -44,7 +45,6 @@ body {
   width: 3%;
   height: 3%;
   position: relative;
-
 }
 
 .bus {
@@ -72,30 +72,105 @@ body {
 
 .top-cloud {
   position: absolute;
-  /* top: 40%; */
+  top: 15%;
   right: 10%;
 }
 
 .center-cloud {
   position: absolute;
-  top: 5%;
+  top: 6%;
+  left: 50%;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 10%;
-  top: 25%;
+  left: 12%;
+  top: 10%;
 }
 
 span {
   text-decoration: underline;
 }
 
+.intro-image {
+  overflow: hidden;
+  transition-duration: 0.8s;
+  transition-property: transform;
+}
+
+.intro-image:hover {
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+}
+
 hr {
-  border: dotted #08d9d6;
+  border: dotted #f2aaaa 7px;
   border-bottom: 0;
+  width: 5%;
+  margin: 5% auto;
+
 }
 
 .intro {
   /* display: inline; */
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+.description {
+  /* display: inline; */
+font-family: 'Playfair Display', serif;
+}
+
+h3 {
+  font-size: 30px;
+  color: #01a9b4;
+  font-family: 'Inconsolata', monospace;
+  position: relative;
+}
+
+h3:hover{
+    color: #086972;
+}
+
+.title {
+  font-family: 'Sacramento', cursive;
+  color: #01a9b4;
+  font-size: 60px;
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 3s;
+  margin: 0;
+}
+
+.portfolio{
+  font-family: 'Sacramento', cursive;
+  color: #01a9b4;
+  display: inline;
+}
+
+.automation{
+  font-size: 40px;
+  transition-property: font-size;
+  transition-duration: 1s;
+  right: 25%;
+}
+
+.automation:hover{
+    font-size: 50px;
+}
+
+.developer{
+  font-size: 40px;
+  transition-property: font-size;
+  transition-duration: 1s;
+  left: 25%;
+}
+
+.developer:hover{
+    font-size: 50px;
+}
+
+.div-portfolio{
+  margin: 5% auto;
+
 }

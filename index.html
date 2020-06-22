@@ -6,22 +6,25 @@
   <title>👨‍💻 RahulR | Welcome 👨‍💻</title>
   <link rel="stylesheet" href="css/style.css" />
   <link rel="icon" href="images/favicon.ico" />
-</head>
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Merriweather+Sans&family=Playfair+Display&family=Sacramento&display=swap" rel="stylesheet">
 
 <body>
-    <img class="avatar" src='images/avatar.png' alt="cloud2" />
+
+  <img class="avatar intro-image" src='images/avatar.png' alt="cloud2" />
   <img class="cloud center-cloud" src='images/cloud2.png' alt="cloud2" />
   <img class="cloud top-cloud" src='images/cloud1.png' alt="cloud1" />
   <img class="cloud bottom-cloud" src='images/cloud3.png' alt="cloud3" />
+
   <div class='banner'>
 
-    <h1 class="intro">I'm Rahul R Pandya</h1>
-
-    <p class="intro"> <em> A <span>Software Automation Engineer</span> with a Developer mind.</em> </p>
-    <p class="intro">Founder and CEO of <strong><em><a href='#' target="_blank">The PiRSquare Codes</a>
-          & <a href='#' target="_blank"> The Step2QA </a></em></strong> </p>
-
+    <h1 class="title"><em>I'm Rahul R</em></h1>
+    <p class="intro"> <em> A <span>Software Automation Engineer</span>
+        with a <span>Developer</span> mind.</em> </p>
+    <!-- <p class="intro">Founder and CEO of <strong><em><a href='#' target="_blank">The PiRSquare Codes</a>
+          & <a href='#' target="_blank"> The Step2QA </a></em></strong> -->
+    </p>
   </div>
+
   <div class="">
     <img src='images/london1_1.png' alt="london1" class="building" />
     <img src='images/london2_1.png' alt="london2" class="tower" />
@@ -30,12 +33,50 @@
     <img src='images/london7_1.png' alt="london7" class="bridge" />
     <img src='images/london3_1.png' alt="london3" class="london-eye" />
     <!-- <img src='images/london6_1.png' alt="london6" class="post" /> -->
-
   </div>
 
+  <hr>
+
+  <div class="introduction">
+    <img src='images/rahul.jpeg' alt="avatar" class="cloud" />
+    <h3> Hello (World)! </h3>
+    <p class="description">
+      I'm Rahul R Pandya, a Developer turned Automation Engineer,
+      from India. <br /> <strong> I fancy codes and London <em>(you got it from theme surely).</em></strong> <br />
+      Being an Automation Test Engineer, I still loves to code and so part time <br />
+      I also do developing as well.
+      You can checkout my portfolio below.
+    </p>
+    <div class="div-portfolio">
+      <h3 style="right:25%" class="portfolio automation"> Automation/QA </h3>
+      <h3 style="left: 25%" class="portfolio developer"> Developer </h3>
+    </div>
+  </div>
 
   <hr>
-  <h3>Who Am I?</h3>
+
+  <div class="technologies">
+
+    <h3>I like to work with... </h3>
+
+    <div>
+      <p style="display:inline;">
+        Java
+      </p>
+      <p style="display:inline;">
+        ⭐⭐⭐⭐
+      </p>
+      <p style="display:inline;">
+        JavaScript
+      </p>
+      <p style="display:inline;">
+        ⭐⭐⭐
+      </p>
+    </div>
+
+
+  </div>
+  <!-- <h3>Who Am I?</h3>
 
   <table>
     <tr>
@@ -117,7 +158,7 @@
     <input type="email" name="email" value="" placeholder="Where I should mail you?" required><br>
     <textarea name="message" rows="8" cols="80" placeholder="What can I help you?" required></textarea><br>
     <input type="submit" name="submit" value="Contact">
-  </form>
+  </form> -->
 
 
 </body>
@@ -135,6 +176,7 @@
       console.log(pos);
       elem.style.left = pos + "%";
     }
+    document.getElementsByClassName('title')[0].style.opacity = 1.0;
     // var currentTime = new Date().getHours();
     // console.log(currentTime);
     // if (currentTime > 6 && currentTime < 18) document.body.style.background = "#ddf3f5";
